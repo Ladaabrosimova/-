@@ -13,7 +13,7 @@ int main() {
 
     w2[strlen(w1)] = '\0';
 
-    printf(w2);
+    printf("%s", w2);
 
     return 0;
 }
