@@ -26,7 +26,7 @@ int main() {
     }
     res[j] = '\0'; 
 
-    printf(res);
+    printf("%s", res);
 
     return 0;
 }
