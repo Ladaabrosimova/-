@@ -16,10 +16,8 @@ int main() {
     if (len > 0) {
         // Вывод первого и последнего символа
         printf("%c%c", str[0], str[len - 1]);
-    } else {
-        printf("Строка пустая\n");
-    }
-
+    } 
+    
     return 0;
 }
 
