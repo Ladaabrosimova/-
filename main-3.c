@@ -18,7 +18,7 @@ int main() {
     char x[40];
     sprintf(x, "Переменная a = %d, переменная b = %d", a, b);
 
-    printf(x);
+    printf("%s", x);
     
     return 0;
 }
