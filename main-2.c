@@ -26,7 +26,7 @@ int main() {
     strcat(result, " ");  
     strcat(result, str2); 
 
-    printf(result);
+    printf("%s", result);
 
     return 0;
 }
